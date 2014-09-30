@@ -425,3 +425,172 @@ iframe {
 
 }
 
+
+@media screen and (min-width: 481px) {
+
+/*----------------- Styles généraux----------------------*/
+
+
+#wrapper {
+	margin: 0 auto;
+	width: 700px;
+}
+
+
+/*----------------- Titres principaux et de rubriques ----------------------*/
+
+h1 {
+	font-size: 82px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+h3.pacificofont {
+	font-size: 27px;
+}
+
+h1, h2, h3, h4, h5 {
+	-moz-text-shadow: 0 2px 1px #fff;
+	-webkit-text-shadow: 0 2px 1px #fff;
+	-o-text-shadow: 0 2px 1px #fff;
+	-ms-text-shadow: 0 2px 1px #fff;
+	text-shadow: 0 2px 1px #fff; 
+}
+
+h3#competences,
+h3#experiences, 
+h3#formations,
+h3#hobbies,
+h3#contact {
+	background-repeat: no-repeat;
+	background-position: 0 10%;
+}
+
+h3#competences {
+	background-image: url(images/titres/competences.png);
+}
+
+h3#experiences {
+	background-image: url(images/titres/experiences_pro.png);
+}
+
+h3#formations {
+	background-image: url(images/titres/formations.png);
+}
+
+h3#hobbies {
+	background-image: url(images/titres/centre_interet.png);
+}
+
+h3#contact {
+	background-image: url(images/titres/contact.png);
+}
+
+
+/*/////////////////////////
+
+	Header
+
+////////////////////////*/
+
+header img {
+	float: left;
+	display: inline;
+	margin: 0 0 20px 0;
+}
+
+header hgroup {
+	float: right;
+	margin: 0 15px 0 0;
+}
+
+
+/*/////////////////////////
+
+	Navigation
+
+////////////////////////*/
+
+nav ul {
+	border-top: 1px solid #002d40;
+	border-bottom: 1px solid #002d40;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 14px 0 14px 18px;
+	padding: 0 0 0 28px; 
+}
+
+nav .first {
+	margin: 0 0 0 35px;
+}
+
+nav .viadeo {
+	background: url(images/social/viadeo.png) no-repeat 0 50%;
+}
+
+nav .twitter {
+	background: url(images/social/twitter.png) no-repeat 0 50%;
+}
+
+nav .facebook {
+	background: url(images/social/facebook.png) no-repeat 0 50%;
+}
+
+nav .linkedin {
+	background: url(images/social/linkedin.png) no-repeat 0 50%;
+}
+
+nav .mail {
+	background: url(images/social/mail.png) no-repeat 0 50%;
+}
+
+
+/*/////////////////////////
+
+	Contenu
+
+////////////////////////*/
+
+/*----------------- expériences pro ----------------------*/
+
+.job {
+	width: 700px;
+}
+
+.logo {
+	float: left;
+	margin: 0 23px 0 0;
+}
+
+.description {
+	margin: 0 0 0 130px;
+	width: 570px;
+}
+
+
+/*----------------- contact ----------------------*/
+
+#col_gauche {
+	width: 300px;
+}
+
+input, 
+textarea {
+	width: 300px;
+}
+
+#col_droite {
+	float: right;
+	width: 372px;
+}
+
+iframe {
+	border: 1px solid #888;
+	width: 370px;
+}
+
+
