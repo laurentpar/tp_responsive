@@ -318,6 +318,110 @@ iframe {
 }
 
 
+}
+
+
+@media screen and (min-width: 380px) {
+
+#wrapper {
+	padding: 0 10px;
+	width: 360px;
+}
+
+
+/*----------------- Titres principaux et de rubriques ----------------------*/
+
+h1 {
+	font-size: 44px;
+}
+
+h2 {
+	font-size: 18px;
+	line-height: 22px;
+}
+
+h3.pacificofont {
+	font-size: 22px;
+}
+
+
+/*/////////////////////////
+
+	Header
+
+////////////////////////*/
+
+header img {
+	display: block;
+	margin: 0 auto 20px auto;
+}
+
+header hgroup {
+	text-align: center;
+}
+
+
+/*/////////////////////////
+
+	Navigation
+
+////////////////////////*/
+
+nav ul {
+	border-top: none;
+	border-bottom: none;
+}
+
+nav ul li {
+	display: block;
+	margin: 25px 0 25px 27px;
+	padding: 0 0 0 28px; 
+}
+
+
+/*/////////////////////////
+
+	Contenu
+
+////////////////////////*/
+
+/*----------------- expériences pro ----------------------*/
+
+.job {
+	width: 360px;
+}
+
+.logo {
+	display: none;
+}
+
+.description {
+	margin: 0;
+	width: 360px;
+}
+
+
+/*----------------- contact ----------------------*/
+
+#col_gauche {
+	width: 360px;
+}
+
+input, 
+textarea {
+	width: 360px;
+}
+
+#col_droite {
+	float: left;
+	width: 360px;
+}
+
+iframe {
+	border: 1px solid #888;
+	width: 358px;
+}
 
 
 }
+
